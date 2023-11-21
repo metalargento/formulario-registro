@@ -18,19 +18,23 @@ body{
   box-shadow: 0 2px 5px rgb(0, 0, 0);
   /* width: 350px; */
   display: block;
-  text-align: left;
+  text-align: right;
 }
 h1 {
   font-size: 50px;
-  border: solid 2px rgb(224, 213, 213);
-  background-color: black;
+  font-weight: bold;
+  border: solid 2px rgb(219, 216, 216);
+  background-color: rgb(139, 135, 130);
   border-radius: 5px;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 10px;
   padding: 0px;
   text-align: center;
-  
+}
+label{
+  color:black;
+  font-weight: bold;
   
 }
 input {
@@ -39,7 +43,8 @@ input {
   margin-right: 5px;
   margin-bottom: 5px;
   font-size: 16px;
-  background-color: rgb(137, 126, 197);
+  font-weight: bold;
+  background-color: white;
   border-color: black;
   border-radius: 5px;
   box-sizing: border-box;
@@ -48,9 +53,10 @@ input {
 button {
   background-color: #4caf96;
   color: blueviolet;
+  font-weight: bold;
   padding: 10px 20px;
   margin: 5px;
-  border: solid 2px black;
+  border: solid 2px rgb(46, 44, 44);
   border-radius: 20px;
   cursor: pointer;
 }
