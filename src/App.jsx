@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { Form } from 'reactstrap';
 /* import 'bootstrap/dist/css/bootstrap.min.css'; */
 /* import Form Grid Form Row from 'reactstrap/forms'; */
 
@@ -30,7 +31,7 @@ const RegistroFormulario = () => {
     <div className='contenedor'>
       <h1>Registro</h1>
       
-      <form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <label>
           Nombre:
           <input type="text" name="nombre" value={usuario.nombre} onChange={handleChange} />
@@ -69,7 +70,7 @@ const RegistroFormulario = () => {
         <br />
         <button type="submit" className='estiloBoton'>Registrarse</button>
         <button type="reset">Resetear Formulario</button>
-      </form>
+      </Form>
     </div>
   );
 };
